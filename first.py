@@ -5,7 +5,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
 import numpy as np
 
-file_path = '/content/drive/MyDrive/Colab Notebooks/DATASETS/iris.data.csv'
+file_path = 'file path for dataset'
 iris_data = pd.read_csv(file_path, header=None)
 
 X = iris_data.iloc[:, :-1].values
