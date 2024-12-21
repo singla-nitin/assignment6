@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
-file_path = '/content/drive/MyDrive/Colab Notebooks/DATASETS/iris.data.csv'
+file_path = 'your file path for dataset'
 data = pd.read_csv(file_path, header=None)
 
 X = data.iloc[:, :-1]
